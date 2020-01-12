@@ -4,10 +4,10 @@
 <h2> 2. Build is created using Maven-plugin on Jenkins </h2>
 <h2> 3. War file is then copied over to Ansible-Controller </h2>
 <h2> 4. Ansible Controller Playbook is invoked to perform following tasks: </h2>
-<p> -->   a. Check for existing docker images </p>
-<p> -->   b. Delete existing docker image and container for cases where pre-existing images and container exists</p> 
-<p> -->   c. Docker Image is created using Ansible Playbook post pre-check </p>
-<p> -->   d. Docker Container is deployed using the Docker Image created in step-c </p> 
+<p> -->   a. Check for existing docker Image/Container and Delete </p>
+<p> -->   b. Create New Docker Image with updated code-commits </p> 
+<p> -->   c. Docker container is then Deployed using Ansible Playbook </p>
+<h2>  </h2>
 <h2> 5. Deployed Container is then accessible through http://172.18.65.176:8885/webapp/ </h2>
 <h2> 6. This completes the POC Deployment for CI/CD deployment for Docker Container </h2> 
 <h2> 
