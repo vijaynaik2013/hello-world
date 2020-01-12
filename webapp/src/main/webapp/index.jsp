@@ -9,7 +9,7 @@
 <p> -->   c. Docker container is then Deployed using Ansible Playbook </p>
 <h2>  </h2>
 <h2> 5. Deployed Container is then accessible through http://172.18.65.176:8885/webapp/ </h2>
-<h2> 6. This completes the POC Deployment for CI/CD deployment for Docker Container </h2> 
+<h2> 6. This completes POC for CI/CD using Tools such as Git-Repo, Jenkins-Pipeline, Ansible-Deployment and Docker </h2> 
 <h2> 
 <h2> Glad to see you here </h2>
 <h2> Thank you !! </h2>
