@@ -5,12 +5,12 @@
 <h2> 2. WAR-file is created using Maven-plugin on Jenkins </h2>
 <h2> 3. War file is then copied over to Ansible-Controller </h2>
 <h2> 4. Ansible Controller Playbook is invoked to perform following tasks: </h2>
-<p> </b>  --> a. Check and delete pre-existing docker Image/Container </p>
-<p> </b>  --> b. Create New Docker Image Build with Tomcat8 and along with war file deployed on Tomcat8 Server </p> 
-<p> </b>  --> c. Docker Image is then deployed as a container using Ansible Playbook Commands </p>
+<p>   --> a. Check and delete pre-existing docker Image/Container </p>
+<p>   --> b. Create New Docker Image Build with Tomcat8 and along with war file deployed on Tomcat8 Server </p> 
+<p>   --> c. Docker Image is then deployed as a container using Ansible Playbook Commands </p>
 <h2>  </h2>
-<h2> 5. Post successfull deployment, Docker-container is accessible at "http://172.18.65.161:8889/webapp/" </h2>
-<h2> </h2>
+<h2>  </h2>
+<h2>  </h2>
 <h2> Tools Used: Git-Repo, Jenkins-Pipeline, Maven-Plugin, Ansible for Deployment, Docker for Containerization </h2> 
 <h2>
 <h2> Glad to see you here </h2>
