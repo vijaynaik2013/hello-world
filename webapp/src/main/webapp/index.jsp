@@ -1,5 +1,6 @@
 <h1> Hi Everyone,   </h1>
-<h2> Welcome , this is a CI/CD DEVOPS project </h2>
+<h2> Welcome , this is a CI/CD POC for Dockerized Build </h2>
+
 <h2> 1. Jenkins-pipeline is auto-triggered with code-changes committed in Git-Repository </h2>
 <h2> 2. Build is created using Maven-plugin on Jenkins </h2>
 <h2> 3. War file is then copied over to Ansible-Controller </h2>
