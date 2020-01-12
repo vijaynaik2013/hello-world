@@ -6,8 +6,8 @@
 <h2> 3. War file is then copied over to Ansible-Controller </h2>
 <h2> 4. Ansible Controller Playbook is invoked to perform following tasks: </h2>
 <p>   --> a. Check and delete pre-existing docker Image/Container </p>
-<p>   --> b. Create Docker Image on Ansible-Controller Server packed with with War file deployed on Tomcat8 </p> 
-<p>   --> c. Docker Image is then deployed as a container using Ansible Playbook Commands on Docker Host </p>
+<p>   --> b. Create Docker Image on Ansible-Controller Server packaged with War file on Tomcat8 Base Image </p> 
+<p>   --> c. Docker Image Build is then deployed as a container using Ansible Playbook Commands on Docker Host with url : "http://172.18.65.161:8889/webapp/" </p>
 <h2>  </h2>
 <h2>  </h2>
 <h2>  </h2>
