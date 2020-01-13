@@ -17,3 +17,6 @@
 <h2> Vijay Naik </h2>
 
 
+<p>
+<script> document.write(new Date().toLocaleDateString()); </script>
+</p>
