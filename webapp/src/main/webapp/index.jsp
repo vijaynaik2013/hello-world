@@ -1,5 +1,9 @@
+<p>
+<script> document.write(new Date().toLocaleDateString()); </script>
+</p>
+
 <h1> Hi Everyone,   </h1>
-<h2> Welcome , this is a CI/CD POC for Dockerized Build </h2>
+<h2> Welcome !!.. This is a CI/CD POC for Docker Build and Deployment </h2>
 
 <h2> 1. Jenkins-pipeline is auto-triggered with code-changes committed in Git-Repository </h2>
 <h2> 2. WAR-file is created using Maven-plugin on Jenkins </h2>
@@ -11,12 +15,8 @@
 <p>   --> c. Docker Image Build is then deployed as a container using Ansible Playbook Commands on Docker Host with url : "http://172.18.65.161:8889/webapp/" </p>
 
 <h2> Tools Used: Git-Repo, Jenkins-Pipeline, Maven-Plugin, Ansible for Deployment, Docker for Containerization </h2> 
-<h2>
+
 <h2> Glad to see you here </h2>
 <h2> Thank you !! </h2>
 <h2> Vijay Naik </h2>
 
-
-<p>
-<script> document.write(new Date().toLocaleDateString()); </script>
-</p>
