@@ -1,5 +1,5 @@
 <p>
-<script> document.write(new Date().toLocaleDateString()); </script>
+<script> document.write(new Date().toDateString()); </script>
 </p>
 
 <h1> Hi Everyone,   </h1>
