@@ -2,21 +2,7 @@
 <script> document.write(new Date().toDateString()); </script>
 </p>
 
-<h1> Hi Everyone,   </h1>
-<h2> Welcome !!.. This is a CI/CD POC for Docker Build and Deployment </h2>
+<h1> Hi, have a wonderful day  </h1>
+<h1> i am a test web application running on Tomcat Server </h1>
 
-<h2> 1. Jenkins-pipeline is auto-triggered with code-changes committed in Git-Repository </h2>
-<h2> 2. WAR-file is created using Maven-plugin on Jenkins </h2>
-<h2> 3. War file is then copied over to Ansible-Controller </h2>
-<h2> 4. Ansible Controller Playbook is invoked to perform following tasks: </h2>
-
-<p>   --> a. Check and delete pre-existing docker Image/Container </p>
-<p>   --> b. Create Docker Image on Ansible-Controller Server packaged with War file on Tomcat8 Base Image </p> 
-<p>   --> c. Docker Image Build is then deployed as a container using Ansible Playbook Commands on Docker Host with url : "http://172.18.65.161:8889/webapp/" </p>
-
-<h2> Tools Used: Git-Repo, Jenkins-Pipeline, Maven-Plugin, Ansible for Deployment, Docker for Containerization </h2> 
-
-<h2> Glad to see you here </h2>
-<h2> Thank you !! </h2>
-<h2> Vijay Naik </h2>
 
